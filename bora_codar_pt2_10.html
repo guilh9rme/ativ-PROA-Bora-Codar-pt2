@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1,0S">
+        <title> Bora Codar 2 - exer 10. </title>
+    </head>
+    <body>
+
+        <script>
+
+let lados = parseFloat(prompt("Entre com o número de lados: "))
+
+
+if(lados==3){
+    let cm = parseFloat(prompt("Entre com a medida dos lados em cm: "))
+    document.write("o polígono com o número de lados informado é um TRIÂNGULO" + "<br>" + "e o valor de seu perímetro é = " + cm*3)
+}else if(lados==4){
+    let cm = parseFloat(prompt("Entre com a medida dos lados em cm: "))
+    document.write("o polígono com o número de lados informado é um QUADRADO" + "<br>" + "e o valor de sua área é = " + cm*cm)
+}else if(lados==5){
+    document.write("o polígono com o número de lados informado é um PENTÁGONO")
+}else if(lados>5){
+    document.write("POLÍGONO NÃO IDENTIFICADO")
+}else if(lados<3){
+    document.write("NÃO É UM POLÍGONO")
+}
+
+
+
+
+            </script>
+    </body>
+</html>
